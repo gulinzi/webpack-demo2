@@ -1,0 +1,26 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "npm-库",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --watch --env prod",
+    "dev": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.1.0",
+    "eslint": "^7.30.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "prettier": "^2.3.2",
+    "prettier-eslint": "^12.0.0",
+    "prettier-eslint-cli": "^5.0.1",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
